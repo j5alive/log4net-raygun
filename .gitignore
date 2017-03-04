@@ -10,3 +10,4 @@
 *.userprefs
 *.nupkg
 *.orig
+tools/
