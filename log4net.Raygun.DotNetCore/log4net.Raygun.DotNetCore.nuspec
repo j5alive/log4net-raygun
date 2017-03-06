@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>log4net.Raygun.DotNetCore</id>
+    <version>$version$</version>
+    <title>log4net.Raygun.DotNetCore</title>
+    <authors>Phillip Wong</authors>
+    <owners>Phillip Wong</owners>
+    <projectUrl>https://github.com/plmwong/log4net-raygun</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple log4net appender which logs to the raygun.io API.</description>
+    <releaseNotes>
+      Changes:
+      1.0.0 -
+      * Initial release.
+    </releaseNotes>
+    <copyright>Copyright Phillip Wong 2017</copyright>
+    <tags>log4net raygun appender logging</tags>
+    <dependencies>
+      <group>
+        <dependency id="log4net" version="[2.0.2,)" />
+        <dependency id="Mindscape.Raygun4Net" version="[5.0.2,)" />
+      </group>
+    </dependencies>
+    <references>
+      <reference file="log4net.Raygun.DotNetCore.dll" />
+      <reference file="log4net.Raygun.DotNetCore.DotNetCore.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="bin\Release\net40\log4net.Raygun.DotNetCore.dll" target="lib\net40\log4net.Raygun.DotNetCore.dll" />
+    <file src="bin\Release\net40\log4net.Raygun.DotNetCore.pdb" target="lib\net40\log4net.Raygun.DotNetCore.pdb" />
+    <file src="bin\Release\net45\log4net.Raygun.DotNetCore.dll" target="lib\net45\log4net.Raygun.DotNetCore.dll" />
+    <file src="bin\Release\net45\log4net.Raygun.DotNetCore.pdb" target="lib\net45\log4net.Raygun.DotNetCore.pdb" />
+    <file src="**\*.cs" target="src\log4net.Raygun.DotNetCore" />
+    <file src="bin\Release\net40\log4net.Raygun.DotNetCore.DotNetCore.dll" target="lib\net40\log4net.Raygun.DotNetCore.DotNetCore.dll" />
+    <file src="bin\Release\net40\log4net.Raygun.DotNetCore.DotNetCore.pdb" target="lib\net40\log4net.Raygun.DotNetCore.DotNetCore.pdb" />
+    <file src="bin\Release\net45\log4net.Raygun.DotNetCore.DotNetCore.dll" target="lib\net45\log4net.Raygun.DotNetCore.DotNetCore.dll" />
+    <file src="bin\Release\net45\log4net.Raygun.DotNetCore.DotNetCore.pdb" target="lib\net45\log4net.Raygun.DotNetCore.DotNetCore.pdb" />
+    <file src="..\log4net.Raygun.DotNetCore.DotNetCore\**\*.cs" target="src\log4net.Raygun.DotNetCore.DotNetCore" />
+  </files>
+</package>
